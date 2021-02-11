@@ -1,0 +1,23 @@
+const username = "tudor";
+const password = "tudoras18"
+
+//const readUsername = +prompt("Give username");
+//const readPassword = +prompt("Give password");
+const parola = "tudoras18";
+const nume = "tudor";
+const checkPw = (pw) => pw === password;
+//console.log(checkPw(parola));
+const checkUsername = (usr) => usr === nume;
+//console.log(checkUsername(nume));
+
+const checkCredentials = () => {
+  const validation = [checkPw(parola), checkUsername(nume)];
+
+  let checkerValid = arr => arr.every(value => v === true);
+  let checkerInvalid = arr => arr.every(value => v)
+  if (checker(validation)) {
+    console.log("Hello");
+  }
+   
+}
+
